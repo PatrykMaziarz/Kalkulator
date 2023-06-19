@@ -10,7 +10,7 @@ body {
     margin: 0;
     background: #6c757d;
 }
-.calculator-grid {
+.kalkulator {
   display: grid;
   justify-content: center;
   align-content: center;
@@ -19,7 +19,7 @@ body {
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
-.calculator-grid > button {
+.kalkulator > button {
   cursor: pointer;
   font-size: 2rem;
   border: 1px solid grey;
